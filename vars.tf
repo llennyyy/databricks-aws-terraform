@@ -1,12 +1,6 @@
-variable "databricks_account_username" {
-  default = "leonard.chang@infocepts.com"
-}
-variable "databricks_account_password" {
-  default = "Info-8888"
-}
-variable "databricks_account_id" {
-  default = "abcf8cee-5967-490f-9f21-18de490ab89a"
-}
+variable "databricks_account_username" {}
+variable "databricks_account_password" {}
+variable "databricks_account_id" {}
 
 variable "tags" {
   default = {}
